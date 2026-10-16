@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#064e3b">
+<title>Apna Loan Mitra | Loan Options Compare Karein</title>
+<meta name="description" content="Personal, business aur government loan options ki jaankari, EMI calculator aur official application links ek jagah.">
+<style>
+:root{--green:#064e3b;--green2:#087f68;--mint:#e8f7f1;--ink:#17211f;--muted:#61716d;--line:#dce7e3;--bg:#f5f8f7;--white:#fff;--orange:#f59e0b;--blue:#1677d2;--shadow:0 10px 28px rgba(11,53,42,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}a{color:inherit}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}
+.topbar{background:#043c30;color:#d5eee6;font-size:.82rem;padding:8px 0}.topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header{background:var(--green);color:white;padding:22px 0 28px}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:10px;font-weight:850;font-size:1.3rem;text-decoration:none}.logo{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#d7f7e8;color:var(--green);font-size:1.35rem}.navlinks{display:flex;gap:18px;flex-wrap:wrap}.navlinks a{font-size:.92rem;color:#e0f5ee;text-decoration:none}.hero{padding:42px 0 10px;display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}.eyebrow{display:inline-flex;gap:7px;align-items:center;border:1px solid #4c8978;border-radius:99px;padding:5px 11px;font-size:.8rem;color:#d8fff0}.hero h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.1;margin:17px 0}.hero p{color:#d6eae4;max-width:650px;margin:0 0 22px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:12px 17px;border:0;border-radius:12px;background:var(--green2);color:#fff;text-decoration:none;font-weight:750;cursor:pointer;font:inherit;font-weight:750}.btn.light{background:#fff;color:var(--green)}.btn.orange{background:var(--orange);color:#332000}.btn.blue{background:var(--blue)}.btn.outline{border:1px solid var(--line);background:#fff;color:var(--green)}.btn:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #8bd9c0;outline-offset:2px}.hero-panel{background:#fff;color:var(--ink);border-radius:22px;padding:23px;box-shadow:var(--shadow)}.hero-panel h3{margin:0 0 8px}.hero-panel p{color:var(--muted);font-size:.9rem;margin:0 0 15px}.quick-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.quick{padding:13px;border:1px solid var(--line);border-radius:14px;background:#fbfdfc}.quick b{display:block;font-size:1.05rem}.quick span{color:var(--muted);font-size:.8rem}
+main{padding:28px 0 55px}.section{margin:28px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:15px}.section h2{font-size:clamp(1.35rem,3vw,1.85rem);margin:0}.sub{color:var(--muted);margin:5px 0 0;font-size:.94rem}.filters{display:grid;grid-template-columns:1fr 200px 190px;gap:10px;margin:16px 0}.field label{display:block;font-size:.84rem;font-weight:750;margin-bottom:6px}.field input,.field select{width:100%;border:1px solid #cbd9d4;background:white;border-radius:11px;padding:12px;font:inherit;color:var(--ink)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.loan-card{background:white;border:1px solid var(--line);border-radius:18px;padding:19px;box-shadow:0 4px 16px rgba(12,50,40,.04);display:flex;flex-direction:column;gap:12px}.card-top{display:flex;justify-content:space-between;gap:10px;align-items:center}.provider{display:flex;align-items:center;gap:10px;font-weight:800}.provider-icon{width:42px;height:42px;border-radius:13px;background:var(--mint);display:grid;place-items:center;font-size:1.25rem}.tag{font-size:.74rem;font-weight:750;padding:5px 8px;border-radius:99px;background:#eef5f2;color:#42645a;white-space:nowrap}.loan-card h3{margin:0;font-size:1.08rem}.loan-card p{margin:0;color:var(--muted);font-size:.9rem}.facts{display:grid;grid-template-columns:1fr 1fr;gap:9px}.fact{padding:10px;background:#f7faf9;border-radius:11px}.fact span{display:block;color:var(--muted);font-size:.75rem}.fact b{font-size:.92rem}.loan-card .btn{width:100%;margin-top:auto}.small-note{font-size:.78rem!important;color:#687771!important}.empty{padding:30px;text-align:center;border:1px dashed #b9cec5;border-radius:16px;background:white;color:var(--muted)}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{background:white;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--shadow)}.panel h3{margin:0 0 5px}.panel .sub{margin-bottom:17px}.calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.result{background:var(--green);color:white;padding:20px;border-radius:15px;margin-top:16px}.result span{color:#c6e9dc;font-size:.86rem}.result strong{display:block;font-size:2rem;line-height:1.2;margin:5px 0}.result .breakdown{display:flex;gap:20px;flex-wrap:wrap;font-size:.85rem;margin-top:10px}.scheme-list{display:grid;gap:12px}.scheme{display:flex;align-items:flex-start;gap:12px;padding:14px;border:1px solid var(--line);border-radius:14px}.scheme .symbol{width:40px;height:40px;display:grid;place-items:center;background:#eef6ff;border-radius:12px;flex-shrink:0}.scheme h4{margin:0 0 3px}.scheme p{margin:0 0 8px;color:var(--muted);font-size:.87rem}.scheme a{color:#087f68;font-weight:750;font-size:.88rem}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{background:white;border:1px solid var(--line);border-radius:15px;padding:18px}.step-num{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;background:var(--mint);color:var(--green);font-weight:850}.step h3{font-size:1rem;margin:10px 0 5px}.step p{font-size:.88rem;color:var(--muted);margin:0}
+.faq details{padding:15px 0;border-bottom:1px solid var(--line)}.faq summary{cursor:pointer;font-weight:750}.faq p{color:var(--muted);margin:9px 0 0;font-size:.92rem}.disclaimer{background:#fff8e7;border:1px solid #f2dfa9;color:#604c1b;border-radius:14px;padding:15px;font-size:.85rem}
+footer{background:#102c25;color:#d6e5df;padding:30px 0}.footgrid{display:grid;grid-template-columns:1.2fr 1fr;gap:25px}.footlinks{display:flex;gap:14px;flex-wrap:wrap}.footlinks a{color:#d6e5df;font-size:.86rem}.footer-small{font-size:.8rem;color:#b9d0c7;margin-top:18px}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#122f27;color:white;padding:12px 18px;border-radius:12px;box-shadow:var(--shadow);z-index:10;display:none;max-width:90vw;font-size:.9rem}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:30px}.cards{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr 1fr}.filters .field:first-child{grid-column:1/-1}.two-col{grid-template-columns:1fr}.nav{align-items:flex-start}.navlinks{gap:10px}}
+@media(max-width:560px){.wrap{width:min(100% - 22px,1120px)}.topbar .wrap{font-size:.75rem}.nav{display:block}.navlinks{margin-top:13px}.hero{gap:22px}.hero-panel{padding:17px}.cards{grid-template-columns:1fr}.filters{grid-template-columns:1fr}.filters .field:first-child{grid-column:auto}.calc-grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.footgrid{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.loan-card{padding:16px}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>भारत में लोन विकल्पों की जानकारी, एक जगह</span><span>जानकारी • तुलना • आधिकारिक लिंक</span></div></div>
+<header>
+  <div class="wrap">
+    <nav class="nav" aria-label="मुख्य नेविगेशन">
+      <a class="brand" href="#"><span class="logo">₹</span><span>Apna Loan Mitra</span></a>
+      <div class="navlinks"><a href="#loans">Loan Options</a><a href="#calculator">EMI Calculator</a><a href="#government">सरकारी योजनाएँ</a><a href="#faq">FAQ</a></div>
+    </nav>
+    <section class="hero">
+      <div>
+        <span class="eyebrow">✓ आसान तुलना • हिंदी में जानकारी</span>
+        <h1>आपकी जरूरत के लिए<br>सही Loan विकल्प खोजें</h1>
+        <p>Personal loan, business loan और सरकारी योजनाओं की जानकारी समझें। आवेदन करने से पहले ब्याज, फीस और पात्रता की शर्तें संबंधित ऋणदाता से जरूर जाँचें।</p>
+        <div class="hero-actions"><a class="btn light" href="#loans">लोन विकल्प देखें ↓</a><a class="btn" href="#calculator">EMI कैलकुलेटर</a></div>
+      </div>
+      <div class="hero-panel">
+        <h3>आपको किस तरह का लोन चाहिए?</h3>
+        <p>नीचे विकल्प चुनें और उपलब्ध जानकारी फ़िल्टर करें।</p>
+        <div class="quick-grid">
+          <a class="quick" href="#loans" data-quick="personal"><b>👤 Personal</b><span>व्यक्तिगत जरूरत</span></a>
+          <a class="quick" href="#loans" data-quick="business"><b>🏪 Business</b><span>छोटा कारोबार</span></a>
+          <a class="quick" href="#government"><b>🏛️ सरकारी योजना</b><span>पात्रता की जानकारी</span></a>
+          <a class="quick" href="#calculator"><b>🧮 EMI Calculator</b><span>मासिक किस्त का अनुमान</span></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</header>
+<main class="wrap">
+  <section class="section" id="loans">
+    <div class="section-head"><div><h2>लोन विकल्पों की तुलना</h2><p class="sub">लोन की शर्तें बदल सकती हैं। अंतिम जानकारी संबंधित संस्था की वेबसाइट पर देखें।</p></div></div>
+    <div class="filters">
+      <div class="field"><label for="search">लोन या कंपनी खोजें</label><input id="search" type="search" placeholder="जैसे personal loan, Moneyview..."></div>
+      <div class="field"><label for="type">लोन का प्रकार</label><select id="type"><option value="all">सभी विकल्प</option><option value="personal">Personal Loan</option><option value="business">Business Loan</option><option value="government">सरकारी योजना</option></select></div>
+      <div class="field"><label for="sort">क्रम</label><select id="sort"><option value="default">सुझाए गए क्रम में</option><option value="name">नाम A–Z</option></select></div>
+    </div>
+    <div class="cards" id="loanCards">
+      <article class="loan-card" data-type="personal" data-name="moneyview personal loan">
+        <div class="card-top"><div class="provider"><span class="provider-icon">💳</span>Moneyview</div><span class="tag">Personal</span></div>
+        <h3>Personal Loan</h3><p>व्यक्तिगत जरूरतों के लिए। मंजूरी, राशि और ब्याज दर आपकी प्रोफाइल व ऋणदाता की शर्तों पर निर्भर हैं।</p>
+        <div class="facts"><div class="fact"><span>ब्याज दर</span><b>आधिकारिक साइट पर देखें</b></div><div class="fact"><span>फीस</span><b>आवेदन से पहले जाँचें</b></div></div>
+        <a class="btn orange" href="https://moneyview.in/personal-loan" target="_blank" rel="noopener noreferrer">आधिकारिक साइट देखें ↗</a>
+        <p class="small-note">यह सामान्य लिंक है, affiliate tracking लिंक नहीं।</p>
+      </article>
+      <article class="loan-card" data-type="personal" data-name="kreditbee personal loan">
+        <div class="card-top"><div class="provider"><span class="provider-icon">📱</span>KreditBee</div><span class="tag">Personal</span></div>
+        <h3>Personal Loan</h3><p>उपलब्ध ऑफर और पात्रता जानने के लिए आधिकारिक वेबसाइट देखें। किसी भी लोन की मंजूरी की गारंटी नहीं है।</p>
+        <div class="facts"><div class="fact"><span>ब्याज दर</span><b>आधिकारिक साइट पर देखें</b></div><div class="fact"><span>फीस</span><b>आवेदन से पहले जाँचें</b></div></div>
+        <a class="btn orange" href="https://www.kreditbee.in/personal-loan" target="_blank" rel="noopener noreferrer">आधिकारिक साइट देखें ↗</a>
+        <p class="small-note">यह सामान्य लिंक है, affiliate tracking लिंक नहीं।</p>
+      </article>
+      <article class="loan-card" data-type="government" data-name="pradhan mantri mudra yojana government business loan">
+        <div class="card-top"><div class="provider"><span class="provider-icon">🏛️</span>PM Mudra Yojana</div><span class="tag">सरकारी योजना</span></div>
+        <h3>मुद्रा योजना की जानकारी</h3><p>पात्र सूक्ष्म व्यवसायों के लिए योजना। पात्रता, श्रेणी और आवेदन प्रक्रिया आधिकारिक जानकारी से जाँचें।</p>
+        <div class="facts"><div class="fact"><span>उद्देश्य</span><b>व्यवसाय</b></div><div class="fact"><span>आवेदन</span><b>शर्तों के अनुसार</b></div></div>
+        <a class="btn blue" href="https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy" target="_blank" rel="noopener noreferrer">सरकारी जानकारी देखें ↗</a>
+        <p class="small-note">यह जानकारी का सरकारी लिंक है; यह तत्काल या निश्चित मंजूरी का वादा नहीं है।</p>
+      </article>
+      <article class="loan-card" data-type="government" data-name="jansamarth government loan schemes">
+        <div class="card-top"><div class="provider"><span class="provider-icon">🇮🇳</span>JanSamarth</div><span class="tag">सरकारी पोर्टल</span></div>
+        <h3>सरकारी क्रेडिट योजनाएँ</h3><p>पात्रता और उपलब्ध योजनाओं की जानकारी के लिए सरकारी पोर्टल देखें।</p>
+        <div class="facts"><div class="fact"><span>जानकारी</span><b>योजना अनुसार</b></div><div class="fact"><span>पात्रता</span><b>जाँच आवश्यक</b></div></div>
+        <a class="btn blue" href="https://www.jansamarth.in/home" target="_blank" rel="noopener noreferrer">JanSamarth खोलें ↗</a>
+        <p class="small-note">सरकारी योजनाओं की उपलब्धता और शर्तें बदल सकती हैं।</p>
+      </article>
+    </div>
+    <div class="empty" id="empty" hidden>इस खोज से मेल खाने वाला विकल्प नहीं मिला। कोई दूसरा शब्द या कैटेगरी चुनें।</div>
+  </section>
+
+  <section class="section two-col" id="calculator">
+    <div class="panel">
+      <h2>🧮 EMI Calculator</h2><p class="sub">अपनी राशि, अनुमानित ब्याज दर और अवधि डालें। परिणाम अनुमानित है।</p>
+      <div class="calc-grid">
+        <div class="field"><label for="amount">लोन राशि (₹)</label><input id="amount" type="number" min="1000" max="100000000" step="1000" value="50000"></div>
+        <div class="field"><label for="rate">वार्षिक ब्याज (%)</label><input id="rate" type="number" min="0" max="60" step=".1" value="18"></div>
+        <div class="field"><label for="months">अवधि (महीने)</label><select id="months"><option value="3">3 महीने</option><option value="6">6 महीने</option><option value="12" selected>12 महीने</option><option value="18">18 महीने</option><option value="24">24 महीने</option><option value="36">36 महीने</option><option value="48">48 महीने</option><option value="60">60 महीने</option></select></div>
+      </div>
+      <div class="result" aria-live="polite"><span>अनुमानित मासिक EMI</span><strong id="emi">—</strong><div class="breakdown"><div>कुल ब्याज: <b id="interest">—</b></div><div>कुल भुगतान: <b id="total">—</b></div></div></div>
+      <p class="small-note">इस अनुमान में प्रोसेसिंग फीस, टैक्स, बीमा और अन्य शुल्क शामिल नहीं हैं। वास्तविक EMI अलग हो सकती है।</p>
+    </div>
+    <div class="panel" id="government">
+      <h2>🏛️ सरकारी लोन योजनाएँ</h2><p class="sub">हम सरकारी योजनाओं की जानकारी के लिए आधिकारिक स्रोतों को प्राथमिकता देते हैं।</p>
+      <div class="scheme-list">
+        <div class="scheme"><div class="symbol">🏪</div><div><h4>प्रधानमंत्री मुद्रा योजना</h4><p>सूक्ष्म व्यवसाय के लिए पात्रता और आवेदन के नियम पढ़ें।</p><a href="https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy" target="_blank" rel="noopener noreferrer">वित्तीय सेवा विभाग की जानकारी ↗</a></div></div>
+        <div class="scheme"><div class="symbol">🇮🇳</div><div><h4>JanSamarth पोर्टल</h4><p>उपलब्ध सरकारी क्रेडिट-लिंक्ड योजनाओं के बारे में जानें।</p><a href="https://www.jansamarth.in/home" target="_blank" rel="noopener noreferrer">आधिकारिक पोर्टल खोलें ↗</a></div></div>
+        <div class="scheme"><div class="symbol">🏦</div><div><h4>RBI — वित्तीय जानकारी</h4><p>डिजिटल लेंडिंग और वित्तीय नियमों की जानकारी के लिए।</p><a href="https://www.rbi.org.in/" target="_blank" rel="noopener noreferrer">RBI वेबसाइट ↗</a></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><h2>लोन लेने से पहले 3 कदम</h2><p class="sub">सुरक्षित और समझदारी से निर्णय लें।</p></div></div>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><h3>कुल लागत जाँचें</h3><p>ब्याज दर के साथ APR, प्रोसेसिंग फीस, देर से भुगतान शुल्क और कुल भुगतान देखें।</p></div>
+      <div class="step"><div class="step-num">2</div><h3>ऋणदाता सत्यापित करें</h3><p>बैंक/NBFC और उनके आधिकारिक आवेदन चैनल की जाँच करें। किसी अनजान एजेंट को अग्रिम शुल्क न दें।</p></div>
+      <div class="step"><div class="step-num">3</div><h3>शर्तें पढ़कर आवेदन करें</h3><p>अपनी चुकाने की क्षमता देखें। OTP, PIN या पासवर्ड किसी के साथ साझा न करें।</p></div>
+    </div>
+  </section>
+
+  <section class="section panel faq" id="faq">
+    <h2>अक्सर पूछे जाने वाले सवाल</h2>
+    <details><summary>क्या Apna Loan Mitra लोन मंजूर करता है?</summary><p>नहीं। यह जानकारी और तुलना देने वाला शुरुआती पोर्टल है। लोन की मंजूरी, ब्याज दर और राशि संबंधित बैंक या ऋणदाता तय करता है।</p></details>
+    <details><summary>क्या हर लिंक से कमीशन मिलता है?</summary><p>नहीं। कमीशन तभी मिल सकता है जब आप संबंधित कंपनी के अधिकृत पार्टनर/affiliate बनें और रेफरल उनकी शर्तों के अनुसार योग्य हो। इस डेमो में सामान्य लिंक हैं।</p></details>
+    <details><summary>क्या सरकारी योजना में लोन पक्का मिलता है?</summary><p>नहीं। पात्रता, दस्तावेज़, बैंक की जाँच और योजना के नियम लागू होते हैं। किसी भी वेबसाइट को मंजूरी की गारंटी नहीं देनी चाहिए।</p></details>
+    <details><summary>क्या मुझे आवेदन के लिए आधार या PAN यहाँ देना चाहिए?</summary><p>इस वेबसाइट पर नहीं। इस डेमो में कोई आवेदन फॉर्म या निजी डेटा संग्रह नहीं है। निजी जानकारी केवल सत्यापित आधिकारिक ऋणदाता के सुरक्षित चैनल पर, जरूरत और सहमति के अनुसार दें।</p></details>
+  </section>
+
+  <section class="section disclaimer"><strong>महत्वपूर्ण डिस्क्लेमर:</strong> Apna Loan Mitra एक स्वतंत्र सूचना/तुलना वेबसाइट का डेमो है, बैंक या सरकारी संस्था नहीं। यहाँ दिखाई गई जानकारी से लोन की मंजूरी, निश्चित ब्याज दर या निश्चित राशि का वादा नहीं किया जाता। आवेदन से पहले संबंधित संस्था की वर्तमान शर्तें, फीस और पात्रता जाँचें। कुछ लिंक भविष्य में affiliate हो सकते हैं; ऐसा होने पर उचित disclosure दिया जाएगा।</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="footgrid">
+      <div><a class="brand" href="#"><span class="logo">₹</span><span>Apna Loan Mitra</span></a><p>लोन विकल्प समझने और तुलना करने में मदद करने वाला स्वतंत्र सूचना पोर्टल।</p></div>
+      <div class="footlinks"><a href="#loans">Loan Options</a><a href="#government">Government Schemes</a><a href="#calculator">EMI Calculator</a><a href="#faq">FAQ</a><a href="#privacy">Privacy Policy</a></div>
+    </div>
+    <div class="footer-small" id="privacy">Privacy note: यह स्टैटिक डेमो कोई व्यक्तिगत डेटा जमा या सर्वर पर भेजता नहीं है। लाइव वेबसाइट प्रकाशित करने से पहले अपनी वास्तविक संपर्क जानकारी, privacy policy, terms और शिकायत प्रक्रिया जोड़ें।<br>© <span id="year"></span> Apna Loan Mitra. All rights reserved.</div>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const searchEl=document.getElementById('search'), typeEl=document.getElementById('type'), sortEl=document.getElementById('sort');
+const cards=[...document.querySelectorAll('.loan-card')], empty=document.getElementById('empty');
+function filterCards(){
+  const q=searchEl.value.trim().toLowerCase(), type=typeEl.value;
+  let visible=cards.filter(card=>(type==='all'||card.dataset.type===type)&&(!q||(card.dataset.name+' '+card.innerText).toLowerCase().includes(q)));
+  cards.forEach(c=>c.hidden=!visible.includes(c));
+  if(sortEl.value==='name'){visible.sort((a,b)=>a.dataset.name.localeCompare(b.dataset.name));const parent=document.getElementById('loanCards');visible.forEach(c=>parent.appendChild(c));}
+  empty.hidden=visible.length!==0;
+}
+searchEl.addEventListener('input',filterCards);typeEl.addEventListener('change',filterCards);sortEl.addEventListener('change',filterCards);
+document.querySelectorAll('[data-quick]').forEach(el=>el.addEventListener('click',()=>{typeEl.value=el.dataset.quick;filterCards()}));
+const money=n=>new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(n);
+function calculate(){
+  const p=Number(document.getElementById('amount').value), annual=Number(document.getElementById('rate').value), n=Number(document.getElementById('months').value);
+  if(!Number.isFinite(p)||!Number.isFinite(annual)||p<=0||annual<0||annual>60||p>100000000){document.getElementById('emi').textContent='राशि जाँचें';document.getElementById('interest').textContent='—';document.getElementById('total').textContent='—';return;}
+  const r=annual/1200, emi=r===0?p/n:p*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1), total=emi*n;
+  document.getElementById('emi').textContent=money(emi);document.getElementById('interest').textContent=money(total-p);document.getElementById('total').textContent=money(total);
+}
+['amount','rate','months'].forEach(id=>document.getElementById(id).addEventListener('input',calculate));
+document.getElementById('year').textContent=new Date().getFullYear();calculate();
+</script>
+</body>
+</html>
